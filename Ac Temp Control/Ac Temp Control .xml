@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/aseelqc/Documents/Ac Temp Control /Ac Temp Control .kicad_sch</source>
+    <date>2022 September 04, Sunday 08:49:12</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Ac Temp Control .kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Brd1">
+      <value>SSD1306</value>
+      <footprint>SSD1306:128x64OLED</footprint>
+      <libsource lib="SSD1306-128x64_OLED" part="SSD1306" description="SSD1306 OLED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2345e1a1-ddec-4cf6-a187-1fa78e88d600</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22UF-0805-6.3V-20%</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="SparkFun-Capacitors" part="22UF-0805-6.3V-20%" description="22uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>734afb28-4a9f-4ce8-8bb3-f80b2f6c4e1c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22UF-0805-6.3V-20%</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="SparkFun-Capacitors" part="22UF-0805-6.3V-20%" description="22uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b9548f-bcdf-4a67-a9f8-e63b33b679d1</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED-IRSIDE_EMITTER</value>
+      <footprint>LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRGrey</footprint>
+      <fields>
+        <field name="Field4">DIO-10904</field>
+      </fields>
+      <libsource lib="SparkFun-LED" part="LED-IRSIDE_EMITTER" description="Infrared LED (IR) &lt;li&gt;&lt;b&gt; Wavelength: &lt;/b&gt; 940nm&lt;/li&gt; &lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;TSAL6100&lt;/b&gt; &lt;/li&gt;&lt;li&gt;&lt;b&gt; LTE302&lt;/b&gt; - Side firing. Check SparkFun-Sensors.lbr for the receiver&lt;/li&gt; &lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= [https://www.sparkfun.com/products/12780] &gt;ZX Distance and Gesture Sensor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/241 &gt;Infrared Emitters and Detectors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="DIO-10904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6195f9dd-6efb-4042-9439-80eb3ed454e0</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal</footprint>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c99f67d-ff9c-4a72-b60b-7c9d2efbaeef</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>TRANS_NPN-P2N2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <fields>
+        <field name="Field4">TRANS-09536</field>
+      </fields>
+      <libsource lib="SparkFun-DiscreteSemi" part="TRANS_NPN-P2N2222A" description="NPN transistor Current controlled devices typically used to amplify current or used as a switch. &lt;ul&gt;  &lt;li&gt;    BC547 -     &lt;a href=&quot;http://www.sparkfun.com/products/8928&quot;&gt;COM-08928&lt;/a&gt;    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)  &lt;/li&gt;  &lt;li&gt;    2N3904 -     &lt;a href=&quot;http://www.sparkfun.com/products/521&quot;&gt;COM-00521&lt;/a&gt;    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)  &lt;/li&gt;  &lt;li&gt;    P2N2222A -     &lt;a href=&quot;http://www.sparkfun.com/products/12852&quot;&gt;COM-12852&lt;/a&gt;    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)  &lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="TRANS-09536"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>518c3271-071c-4dc3-8165-5f15e0e8f6aa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a88a7ee8-a311-4c25-952b-b909be51dc55</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd1083a6-73f3-4e8c-9c0d-e69b6dbf7195</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATmega328-P</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm_LongPads</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328-P" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a991d914-4a52-4a37-9354-ff2923b96a24</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0d4ff5-2285-408a-8fa4-683f49038b41</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TSOP382xx</value>
+      <footprint>OptoDevice:Vishay_MINICAST-3Pin</footprint>
+      <datasheet>http://www.vishay.com/docs/82491/tsop382.pdf</datasheet>
+      <libsource lib="Interface_Optical" part="TSOP382xx" description="Photo Modules for PCM Remote Control Systems"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d825de94-4f24-4cb7-9e5d-e34d9cdc31dd</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>CRYSTAL-16MHZPTH-HC49US</value>
+      <footprint>Crystal:Crystal_HC18-U_Vertical</footprint>
+      <fields>
+        <field name="Field4">XTAL-08181</field>
+      </fields>
+      <libsource lib="SparkFun-Clocks" part="CRYSTAL-16MHZPTH-HC49US" description="16MHz Crystal &lt;a href=&quot;http://www.digikey.com/product-search/en?keywords=535-9122-1-ND&quot;&gt;Digikey Example&lt;/a&gt; &lt;ul&gt;&lt;li&gt;Frequency: 16MHz&lt;/li&gt;&lt;li&gt;Frequency Stability: &amp;plusmn;50ppm&lt;/li&gt;&lt;li&gt;Frequency Tolerance: &amp;plusmn;20ppm&lt;/li&gt;&lt;li&gt;Load Capacitance: 18pF&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12640 &gt;Pro Micro -5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/10097 &gt;SparkFun Serial Enabled LCD Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="XTAL-08181"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ac Temp Control .kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3795a62-5daf-4db4-b1c7-9900ee977fe1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Optical" part="TSOP382xx">
+      <description>Photo Modules for PCM Remote Control Systems</description>
+      <docs>http://www.vishay.com/docs/82491/tsop382.pdf</docs>
+      <footprints>
+        <fp>Vishay*MINICAST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSOP382xx</field>
+        <field name="Footprint">OptoDevice:Vishay_MINICAST-3Pin</field>
+        <field name="Datasheet">http://www.vishay.com/docs/82491/tsop382.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vs" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega328-P">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega328-P</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="2" name="PD0" type="bidirectional"/>
+        <pin num="3" name="PD1" type="bidirectional"/>
+        <pin num="4" name="PD2" type="bidirectional"/>
+        <pin num="5" name="PD3" type="bidirectional"/>
+        <pin num="6" name="PD4" type="bidirectional"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="10" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="11" name="PD5" type="bidirectional"/>
+        <pin num="12" name="PD6" type="bidirectional"/>
+        <pin num="13" name="PD7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB2" type="bidirectional"/>
+        <pin num="17" name="PB3" type="bidirectional"/>
+        <pin num="18" name="PB4" type="bidirectional"/>
+        <pin num="19" name="PB5" type="bidirectional"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSD1306-128x64_OLED" part="SSD1306">
+      <description>SSD1306 OLED</description>
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="DHT11">
+      <description>Temperature and humidity module</description>
+      <docs>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</docs>
+      <footprints>
+        <fp>Aosong*DHT11*5.5x12.0*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DHT11</field>
+        <field name="Footprint">Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</field>
+        <field name="Datasheet">http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IO" type="bidirectional"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="22UF-0805-6.3V-20%">
+      <description>22uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0805*</fp>
+        <fp>*1210*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22UF-0805-6.3V-20%</field>
+        <field name="Footprint">0805</field>
+        <field name="Field4">CAP-08402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Clocks" part="CRYSTAL-16MHZPTH-HC49US">
+      <description>16MHz Crystal &lt;a href="http://www.digikey.com/product-search/en?keywords=535-9122-1-ND"&gt;Digikey Example&lt;/a&gt; &lt;ul&gt;&lt;li&gt;Frequency: 16MHz&lt;/li&gt;&lt;li&gt;Frequency Stability: &amp;plusmn;50ppm&lt;/li&gt;&lt;li&gt;Frequency Tolerance: &amp;plusmn;20ppm&lt;/li&gt;&lt;li&gt;Load Capacitance: 18pF&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12640 &gt;Pro Micro -5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/10097 &gt;SparkFun Serial Enabled LCD Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*HC49US*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CRYSTAL-16MHZPTH-HC49US</field>
+        <field name="Footprint">HC49US</field>
+        <field name="Field4">XTAL-08181</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-DiscreteSemi" part="TRANS_NPN-P2N2222A">
+      <description>NPN transistor Current controlled devices typically used to amplify current or used as a switch. &lt;ul&gt;  &lt;li&gt;    BC547 -     &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)  &lt;/li&gt;  &lt;li&gt;    2N3904 -     &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)  &lt;/li&gt;  &lt;li&gt;    P2N2222A -     &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)  &lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TRANS_NPN-P2N2222A</field>
+        <field name="Footprint">TO-92</field>
+        <field name="Field4">TRANS-09536</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-LED" part="LED-IRSIDE_EMITTER">
+      <description>Infrared LED (IR) &lt;li&gt;&lt;b&gt; Wavelength: &lt;/b&gt; 940nm&lt;/li&gt; &lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;TSAL6100&lt;/b&gt; &lt;/li&gt;&lt;li&gt;&lt;b&gt; LTE302&lt;/b&gt; - Side firing. Check SparkFun-Sensors.lbr for the receiver&lt;/li&gt; &lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= [https://www.sparkfun.com/products/12780] &gt;ZX Distance and Gesture Sensor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/241 &gt;Infrared Emitters and Detectors&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*LTE-302*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-IRSIDE_EMITTER</field>
+        <field name="Footprint">LTE-302</field>
+        <field name="Field4">DIO-10904</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Optical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Interface_Optical.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SSD1306-128x64_OLED">
+      <uri>/Users/aseelqc/Downloads/KiCad-SSD1306-128x64-master/library/SSD1306-128x64_OLED.lib</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor.kicad_sym</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>/Users/aseelqc/Downloads/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Clocks">
+      <uri>/Users/aseelqc/Downloads/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Clocks.lib</uri>
+    </library>
+    <library logical="SparkFun-DiscreteSemi">
+      <uri>/Users/aseelqc/Downloads/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-DiscreteSemi.lib</uri>
+    </library>
+    <library logical="SparkFun-LED">
+      <uri>/Users/aseelqc/Downloads/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-LED.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AREF">
+      <node ref="U2" pin="21" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Brd1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="J4" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(Brd1-Pad2)">
+      <node ref="Brd1" pin="2" pinfunction="VCC" pintype="input"/>
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="20" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="Vs" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(Brd1-Pad3)">
+      <node ref="Brd1" pin="3" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="25" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(Brd1-Pad4)">
+      <node ref="Brd1" pin="4" pinfunction="SDA" pintype="input"/>
+      <node ref="U2" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PD3" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J4-Pad6)">
+      <node ref="J4" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="~{RESET}/PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="PD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="PD7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad24)">
+      <node ref="U2" pin="24" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U2-Pad26)">
+      <node ref="U2" pin="26" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-Pad28)">
+      <node ref="U2" pin="28" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
