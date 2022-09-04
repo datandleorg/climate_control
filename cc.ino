@@ -1,30 +1,12 @@
-/* rawSend.ino Example sketch for IRLib2
- *  Illustrates how to send a code Using raw timings which were captured
- *  from the "rawRecv.ino" sample sketch.  Load that sketch and
- *  capture the values. They will print in the serial monitor. Then you
- *  cut and paste that output into the appropriate section below.
- */
-#include <IRLibSendBase.h>    //We need the base code
-#include <IRLib_HashRaw.h>    //Only use raw sender
-#include <dht.h>
+#include "DHT.h"
+#include <IRLibSendBase.h>   
+#include <IRLib_HashRaw.h>    
 
-#define dht_apin A0 // Analog Pin sensor is connected to
- 
-dht DHT;
-
+#define DHTPIN 2     
+#define DHTTYPE DHT11   
+DHT dht(DHTPIN, DHTTYPE);
 IRsendRaw mySender;
 
-void setup() {
-  Serial.begin(9600);
-  delay(2000); 
-  while (!Serial); //delay for Leonardo
-  Serial.println("DHT11 Humidity & temperature Sensor\n\n");
-}
-/* Cut and paste the output from "rawRecv.ino" below here. It will 
- * consist of a #define RAW_DATA_LEN statement and an array definition
- * beginning with "uint16_t rawData[RAW_DATA_LEN]= {…" and concludes
- * with "…,1000};"
- */
 #define RAW_DATA_LEN 244
 uint16_t rawDataOff[RAW_DATA_LEN]={
   8370, 4294, 466, 634, 466, 1730, 466, 1738, 
@@ -94,22 +76,24 @@ uint16_t rawDataOn[RAW_DATA_LEN]={
   466, 1714, 486, 1738, 466, 626, 466, 642, 
   466, 630, 470, 1000};
 
-
-
-
-/*
- * Cut-and-paste into the area above.
- */
 String offstatus = "";
-   
-void loop() {
 
-  DHT.read11(dht_apin);
-  float temp = DHT.temperature;
-  Serial.print("temperature = ");
-  Serial.print(temp); 
-  Serial.println(" C");
-  if (temp > 27 && (offstatus == "off" || offstatus == "")) {
+void setup() {
+  Serial.begin(9600);
+  Serial.println(F("DHTxx test!"));
+  dht.begin();
+}
+
+void loop() {
+  delay(2000);
+  float temp = dht.readTemperature();
+  // Check if any reads failed and exit early (to try again).
+  if (isnan(temp)) {
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
+  }
+   Serial.println(temp);
+   if (temp > 28 && (offstatus == "off" || offstatus == "")) {
     mySender.send(rawDataOn,244,36);//Pass the buffer,length, optionally frequency
     Serial.println(F("AC Switched On"));
     offstatus = "on";
@@ -121,4 +105,5 @@ void loop() {
   }
   Serial.println(offstatus);
   delay(5000);
+
 }
