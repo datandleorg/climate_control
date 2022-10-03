@@ -1,104 +1,106 @@
 #include <Wire.h>
-#include <EEPROM.h>
-#include <IRremote.h>
+#include <IRLibSendBase.h>    // sending base classes
+#include <IRLib_HashRaw.h>    //We need this for IRsendRaw
+#include <IRLibRecvPCI.h> 
 #include "SSD1306Ascii.h"
 #include "SSD1306AsciiAvrI2c.h"
 #include "DHT.h"
-
-#define DHTPIN 4
-#define DHTTYPE DHT11   
-DHT dht(DHTPIN, DHTTYPE);
-
-// 0X3C+SA0 - 0x3C or 0x3D
-#define I2C_ADDRESS 0x3C
-
-// Define proper RST_PIN if required.
+// 1-10
+// 11-20
+// 21 22 - high low
+// 100 - 1000
+// 1000 - off code
 #define RST_PIN -1
+#define EEPROM_I2C_ADDRESS 0x50
+
+DHT dht(7, DHT11);
 SSD1306AsciiAvrI2c oled;
 
-int RECV_PIN = 2;
-IRrecv irrecv(RECV_PIN);
-decode_results results;
+IRsendRaw mySender;
+IRrecvPCI myReceiver(2);//pin number for the receiver
 
-const uint16_t variableName[] PROGMEM = {}; // use this form
-const byte BUTTON_PIN_1 = 5; // set
-const byte BUTTON_PIN_INC = 6; // set
-const byte BUTTON_PIN_DEC = 10; // set
+const byte SET_BTN_PIN_1 = 8; 
+const byte BUTTON_PIN_INC = 9; 
+const byte BUTTON_PIN_DEC = 12;  
+const byte RESET_BTN_PIN_1 = 10; 
+
 byte currentButtonState_1; // the current state of button
 byte lastButtonState_1;    // the previous state of button
 byte currentButtonState_2; // the current state of button
 byte lastButtonState_2;    // the previous state of button
 byte currentButtonState_3; // the current state of button
 byte lastButtonState_3;    // the previous state of button
+byte currentButtonState_4; // the current state of button
+byte lastButtonState_4;    // the previous state of button
+
 byte battery = 67;    // the previous state of button
-boolean invert = false;
-boolean blinkStatus_1 = false;
-boolean blinkStatus_2 = true;
+boolean blinkStatus_1 = true;
+boolean blinkStatus_2 = false;
 byte screen = 1;
 byte high = 28;
 byte low = 23;
 const unsigned long readingEvent = 5000;
 unsigned long previousTime = 0;
 float temp;
+int currAddr[2];
+byte offstatus;
+
 void setup(){
-  Serial.begin(9600);                // initialize serial
+  Wire.begin();
+  Serial.begin(9600); 
+
   #if RST_PIN >= 0
-    oled.begin(&Adafruit128x64, I2C_ADDRESS, RST_PIN);
-  #else // RST_PIN >= 0
-    oled.begin(&Adafruit128x64, I2C_ADDRESS);
-  #endif // RST_PIN >= 0
+    oled.begin(&Adafruit128x64, 0x3C, RST_PIN);
+  #else 
+    oled.begin(&Adafruit128x64, 0x3C);
+  #endif 
     oled.setFont(Adafruit5x7);
 
-  irrecv.enableIRIn(); // Start the receiver
   oled.clear();
   oled.set2X();
   oled.setCursor(12,2);
   oled.print(F("*Climate*"));
   oled.setCursor(12,4);
   oled.print(F("*Control*"));
+  
+  myReceiver.enableIRIn(); // Start the receiver
 
-  pinMode(BUTTON_PIN_1, INPUT_PULLUP); // set arduino pin to input pull-up mode
-  pinMode(BUTTON_PIN_INC, INPUT_PULLUP); // set arduino pin to input pull-up mode
+  pinMode(SET_BTN_PIN_1, INPUT_PULLUP); 
+  pinMode(BUTTON_PIN_INC, INPUT_PULLUP); 
   pinMode(BUTTON_PIN_DEC, INPUT_PULLUP); // set arduino pin to input pull-up mode
-  currentButtonState_1 = digitalRead(BUTTON_PIN_1);
+  pinMode(RESET_BTN_PIN_1, INPUT_PULLUP); // set arduino pin to input pull-up mode
+  
+  currentButtonState_1 = digitalRead(SET_BTN_PIN_1);
   currentButtonState_2 = digitalRead(BUTTON_PIN_INC);
   currentButtonState_3 = digitalRead(BUTTON_PIN_DEC);
-  Serial.println(currentButtonState_1);
+  currentButtonState_4 = digitalRead(RESET_BTN_PIN_1);
+
+  high = readEEPROM(EEPROM_I2C_ADDRESS, 21);
+  low = readEEPROM(EEPROM_I2C_ADDRESS, 22); 
+
   dht.begin();
   delay(500);
   temp = dht.readTemperature();
   oled.clear();
-  Serial.println(EEPROM.length());
+  getAddr(1);
 }
 
 void loop() { 
       lastButtonState_1    = currentButtonState_1;      // save the last state
-      currentButtonState_1 = digitalRead(BUTTON_PIN_1); // read new state
+      currentButtonState_1 = digitalRead(SET_BTN_PIN_1); // read new state
       lastButtonState_2   = currentButtonState_2;      // save the last state
       currentButtonState_2 = digitalRead(BUTTON_PIN_INC); // read new state
-      lastButtonState_3    = currentButtonState_3;      // save the last state
+      lastButtonState_3   = currentButtonState_3;      // save the last state
       currentButtonState_3 = digitalRead(BUTTON_PIN_DEC); // read new state
-      unsigned long currentTime = millis();
+      lastButtonState_4   = currentButtonState_4;      // save the last state
+      currentButtonState_4 = digitalRead(RESET_BTN_PIN_1); // read new state
 
-      if (currentTime - previousTime >= readingEvent) {
-            temp = dht.readTemperature();
-            if (isnan(temp)) {
-              Serial.println(F("Failed to read from DHT sensor!"));
-              return;
-            }
-            previousTime = currentTime;
+      unsigned long currentTime = millis();
+      
+      if(lastButtonState_1 == HIGH && currentButtonState_1 == LOW) {
+        incScreen();
       }
       
-
-     
-      if(lastButtonState_1 == HIGH && currentButtonState_1 == LOW) {
-        oled.clear();
-        if(screen >= 4){
-          screen = 1;
-        }else{
-          screen = screen + 1;
-        }
-      }
       if(lastButtonState_2 == HIGH && currentButtonState_2 == LOW) {
         if(blinkStatus_1){
              if(high >= 50){
@@ -113,7 +115,13 @@ void loop() {
                  low = low + 1;
               }
         }
+        if (blinkStatus_1) {
+            writeEEPROM(EEPROM_I2C_ADDRESS,21,high);
+        } else {
+            writeEEPROM(EEPROM_I2C_ADDRESS,22,low);
+        }
       }
+      
       if(lastButtonState_3 == HIGH && currentButtonState_3 == LOW) {
         if(blinkStatus_1){
              if(high <= 1){
@@ -128,7 +136,16 @@ void loop() {
                  low = low - 1;
               }
         }
+        if (blinkStatus_1) {
+            writeEEPROM(EEPROM_I2C_ADDRESS,21,high);
+        } else {
+            writeEEPROM(EEPROM_I2C_ADDRESS,22,low);
+        }
       }
+
+      if(lastButtonState_4 == HIGH && currentButtonState_4 == LOW) {
+        reset();
+      } 
 
      if(screen == 1) {
         oled.set1X();
@@ -149,21 +166,67 @@ void loop() {
         oled.print("C");
         
         oled.set2X();
-        oled.setCursor((EEPROM.read(1) ? 90 : 96),3);
-        oled.print(EEPROM.read(1) ? F("OFF") : F("--"));
+        oled.setCursor(96,3);
+        oled.print(offstatus ? offstatus == 0 ? "OFF" : "ON" : "--");
 
         oled.set1X();
         oled.setCursor(0,5);
         oled.print(F("----------------------"));
         
-        if(EEPROM.read(50)){
+        if(currAddr[1] > 0){
           oled.setCursor(0,6);
           oled.print(F("High: "));
-          oled.print(F("25 C"));
-          
+          oled.print(high);
+          oled.print(F(" C"));
+
           oled.setCursor(0,7);
           oled.print(F("Low: "));
-          oled.print(F("28 C"));
+          oled.print(low);
+          oled.print(F(" C"));
+
+          if (currentTime - previousTime >= readingEvent) {
+            temp = dht.readTemperature();
+            if (isnan(temp)) {
+              Serial.println(F("Failed to read from DHT sensor!"));
+              return;
+            }
+
+            if (temp > high && (offstatus == 0 || !offstatus)) {
+                getAddr(1);
+                uint16_t code_1[currAddr[1]+1];
+                readIntArrayFromEEPROM(currAddr[0], code_1, currAddr[1] + 1);
+                mySender.send(code_1,currAddr[1]+1,36);//Pass the buffer,length, optionally frequency
+                offstatus = 1;
+
+                Serial.println("AC Switched On");
+                Serial.println(offstatus);
+
+                oled.clear();
+                oled.setCursor(0,7);
+                oled.print(F("Turning ON "));
+                delay(1000);
+                oled.clear();
+                
+             }
+              else if (temp < low && (offstatus == 1 || !offstatus)) { 
+                getAddr(0);
+                uint16_t code_0[currAddr[1]+1];
+                readIntArrayFromEEPROM(currAddr[0], code_0, currAddr[1]+1);
+                mySender.send(code_0,currAddr[1]+1,36);//Pass the buffer,length, optionally frequency
+                offstatus = 0;
+                
+                Serial.println("AC Switched Off");
+                Serial.println(offstatus);
+
+                oled.clear();
+                oled.setCursor(0,7);
+                oled.print(F("Turning OFF"));
+                delay(1000);
+                oled.clear();
+             } 
+               
+            previousTime = currentTime;
+          }
         }else{
           oled.setCursor(0,6);
           oled.print(F("Setup is pending"));
@@ -173,41 +236,26 @@ void loop() {
         }
      }
 
-     
     if(screen == 2 ) {
-      if(!EEPROM.read(50)){
-        oled.setCursor(0,2);
-        oled.print(F("Pls direct your remote"));
-        oled.setCursor(0,3);
-        oled.print(F("towards the device"));
-        oled.setCursor(0,4);
-        oled.print(F("and Power ON your AC"));
-
-        initRead();
-      }else {
-
-        //Serial.println(EEPROM.read(50));
-
-        oled.setCursor(16,2);
-        oled.println(F("ON Signal recieved"));
-        oled.setCursor(16,3);
-        oled.println(readStringFromEEPROM(50));
-      }
+      oled.setCursor(0,2);
+      oled.print(F("Pls direct your remote"));
+      oled.setCursor(0,3);
+      oled.print(F("towards the device"));
+      oled.setCursor(0,4);
+      oled.print(F("and Power ON your AC"));
+      recieveCode(true, 1);
      }
      
     if(screen == 3) {
-      if(!EEPROM.read(51)){
-        oled.setCursor(0,2);
-        oled.print(F("Pls direct your remote"));
-        oled.setCursor(0,3);
-        oled.print(F("towards the device"));
-        oled.setCursor(0,4);
-        oled.print(F("and Power OFF your AC"));
-      }else {
-        oled.setCursor(16,2);
-        oled.print(F("OFF Signal recieved"));
-      }
+      oled.setCursor(0,2);
+      oled.print(F("Pls direct your remote"));
+      oled.setCursor(0,3);
+      oled.print(F("towards the device"));
+      oled.setCursor(0,4);
+      oled.print(F("and Power OFF your AC"));
+      recieveCode(true, 0);
    }
+   
    if(screen == 4) {
        oled.set1X();
        oled.setCursor(0,1);
@@ -223,7 +271,7 @@ void loop() {
           oled.print(high);
           oled.setInvertMode(false);
         }else{
-           oled.print(high);
+          oled.print(high);
         }
 
        oled.setCursor(90,4);
@@ -235,103 +283,114 @@ void loop() {
           oled.print(low);
         }   
    }
-     
 }
 
-void initRead(){
-  if (irrecv.decode(&results)) {
-    Serial.println(results.value, DEC);
-    dump(&results);
-    irrecv.resume(); // Receive the next value
+void recieveCode(boolean recieverActive, int type){
+  if(recieverActive){
+     if (myReceiver.getResults()) { 
+      if (recvGlobal.recvLength - 1 > 30) {
+        int rawCode[recvGlobal.recvLength - 1];
+        for(bufIndex_t i=1;i<recvGlobal.recvLength;i++) {
+          rawCode[i-1] = (int) recvGlobal.recvBuffer[i];
+        }
+        rawCode[recvGlobal.recvLength - 1] = 1000;
+        getAddr(type);
+        writeIntArrayIntoEEPROM(currAddr[0], rawCode, recvGlobal.recvLength);
+        recordAddressChannel(type,recvGlobal.recvLength - 1, currAddr[0]);
+      }
+      myReceiver.enableIRIn();      
+    }
   }
 }
 
 
+void writeEEPROM(int deviceaddress, unsigned int eeaddress, byte data ) 
+{
+  Wire.beginTransmission(deviceaddress);
+  Wire.write((int)(eeaddress >> 8));   // MSB
+  Wire.write((int)(eeaddress & 0xFF)); // LSB
+  Wire.write(data);
+  Wire.endTransmission();
+  delay(5);
+}
 
-void dump(decode_results *results) {
-  // Dumps out the decode_results structure.
-  // Call this after IRrecv::decode()
-  int count = results->rawlen;
-  if (results->decode_type == UNKNOWN) {
-    Serial.print(F("Unknown encoding: "));
-  }
-  else if (results->decode_type == NEC) {
-    Serial.print(F("Decoded NEC: "));
-  }
-  else if (results->decode_type == SONY) {
-    Serial.print(F("Decoded SONY: "));
-  }
-  else if (results->decode_type == RC5) {
-    Serial.print(F("Decoded RC5: "));
-  }
-  else if (results->decode_type == RC6) {
-    Serial.print(F("Decoded RC6: "));
-  }
-  else if (results->decode_type == PANASONIC) {
-    Serial.print(F("Decoded PANASONIC - Address: "));
-    Serial.print(results->address, HEX);
-    Serial.print(F(" Value: "));
-  }
-  else if (results->decode_type == LG) {
-    Serial.print(F("Decoded LG: "));
-  }
-  else if (results->decode_type == JVC) {
-    Serial.print(F("Decoded JVC: "));
-  }
-//  else if (results->decode_type == AIWA_RC_T501) {
-//    Serial.print("Decoded AIWA RC T501: ");
-//  }
-  else if (results->decode_type == WHYNTER) {
-    Serial.print(F("Decoded Whynter: "));
-  }
-  Serial.print(results->value, HEX);
-  Serial.print(F(" ("));
-  Serial.print(results->bits, DEC);
-  Serial.println(F(" bits)"));
-  Serial.print(F("Raw ("));
-  Serial.print(count, DEC);
-  Serial.print("): ");
+byte readEEPROM(int deviceaddress, unsigned int eeaddress ) 
+{
+  byte rdata = 0xFF;
+  Wire.beginTransmission(deviceaddress);
+  Wire.write((int)(eeaddress >> 8));   // MSB
+  Wire.write((int)(eeaddress & 0xFF)); // LSB
+  Wire.endTransmission();
+  Wire.requestFrom(deviceaddress,1);
+  if (Wire.available()) rdata = Wire.read();
+  return rdata;
+}
 
-        Serial.println("-------");
-        Serial.println(results->value, HEX);
+void writeIntArrayIntoEEPROM(int address, int numbers[], int arraySize)
+{
+  int addressIndex = address;
+  for (int i = 0; i < arraySize; i++) 
+  {
+    writeEEPROM(EEPROM_I2C_ADDRESS, addressIndex, numbers[i] >> 8);
+    writeEEPROM(EEPROM_I2C_ADDRESS, addressIndex + 1, numbers[i] & 0xFF);
+    addressIndex += 2;
+  }
+}
+void readIntArrayFromEEPROM(int address, int numbers[], int arraySize)
+{    
+  int addressIndex = address;
+  for (int i = 0; i < arraySize; i++)
+  {
+    numbers[i] = (readEEPROM(EEPROM_I2C_ADDRESS, addressIndex) << 8) + readEEPROM(EEPROM_I2C_ADDRESS, addressIndex + 1);
+    addressIndex += 2;
+  }
+}
 
-   writeStringToEEPROM(50, String(results->value, HEX));
-   
+void getAddr(int type){
+  readIntArrayFromEEPROM(type == 1 ? 1 : 11, currAddr,2);
+
+  if (currAddr[0] > 0){
+  } else {
+    if (type == 1){
+      currAddr[0]=100;
+    } else {
+      currAddr[0]=1000;
+    }
+  }
+}
+
+void recordAddressChannel(int type, int onAddrLen, int startAddr){
+   int channelAddr = type == 1 ? 1 : 11;
+   int rcd[2] = { startAddr, onAddrLen };
+   writeIntArrayIntoEEPROM(channelAddr, rcd, 2);
    oled.clear();
-  for (int i = 1; i < count; i++) {
-    if (i & 1) {
-      Serial.print(results->rawbuf[i]*USECPERTICK, DEC);
-    }
-    else {
-      Serial.write('-');
-      Serial.print((unsigned long) results->rawbuf[i]*USECPERTICK, DEC);
-    }
-    Serial.print(" ");
-  }
-  Serial.println();
-  
+   oled.setCursor(16,2);
+   oled.print(type);
+   oled.setCursor(0,3);
+   oled.print(F("code recorded"));
+   delay(1000);
+   incScreen();
+   recieveCode(false, 1);
 }
 
-void writeStringToEEPROM(int addrOffset, const String &strToWrite)
-{
-  byte len = strToWrite.length();
-  Serial.println("*******");
-  Serial.println(len);
-  EEPROM.write(addrOffset, len);
-  for (int i = 0; i < len; i++)
-  {
-    EEPROM.write(addrOffset + 1 + i, strToWrite[i]);
-  }
+void incScreen(){
+    oled.clear();
+    if(screen >= 4){
+      if (screen == 4){
+        if(blinkStatus_1){
+          blinkStatus_1 = false;
+          blinkStatus_2 = true;
+        } else {
+          screen = 1;
+          blinkStatus_1 = true;
+          blinkStatus_2 = false;
+        }
+      }
+    }else{
+      screen = screen + 1;
+    }
 }
 
-String readStringFromEEPROM(int addrOffset)
-{
-  int newStrLen = EEPROM.read(addrOffset);
-  char data[newStrLen + 1];
-  for (int i = 0; i < newStrLen; i++)
-  {
-    data[i] = EEPROM.read(addrOffset + 1 + i);
-  }
-  // data[newStrLen] = '\ 0'; // !!! NOTE !!! Remove the space between the slash "/" and "0" (I've added a space because otherwise there is a display bug)
-  return String(data);
+void reset(){
+  offstatus = NULL;
 }
