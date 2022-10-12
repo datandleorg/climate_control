@@ -1,0 +1,38 @@
+"Source:","/Users/aseelqc/Documents/KiCad/Arduino Uno/Arduino Uno.kicad_sch"
+"Date:","2022 October 09, Sunday 22:38:42"
+"Tool:","Eeschema (6.0.7-1)-1"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","13"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4"
+"","","C1","22UF-0805-6.3V-20%","SparkFun-Capacitors:22UF-0805-6.3V-20%","Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm","","CAP-08402"
+"","","C2","22UF-0805-6.3V-20%","SparkFun-Capacitors:22UF-0805-6.3V-20%","Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm","","CAP-08402"
+"","","C3","10UF","Device:C","Capacitor_THT:CP_Radial_D8.0mm_P2.50mm","~",""
+"","","D1","LED","Device:LED","LED_THT:LED_D5.0mm","~",""
+"","","J1","USB_B_Micro","Connector:USB_B_Micro","Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal","~",""
+"","","J2","Conn_01x14","Connector_Generic:Conn_01x14","Connector_Molex:Molex_Micro-Latch_53253-1470_1x14_P2.00mm_Vertical","~",""
+"","","J3","Conn_01x14","Connector_Generic:Conn_01x14","Connector_Molex:Molex_Micro-Latch_53253-1470_1x14_P2.00mm_Vertical","~",""
+"","","R1","100","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~",""
+"","","R2","100","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~",""
+"","","SW1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~",""
+"","","U1","L7805","Regulator_Linear:L7805","Package_TO_SOT_THT:TO-220F-3_Vertical","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf",""
+"","","U2","ATmega328-P","MCU_Microchip_ATmega:ATmega328-P","Package_DIP:DIP-28_W7.62mm_LongPads","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf",""
+"","","Y1","CRYSTAL-16MHZPTH-HC49US","SparkFun-Clocks:CRYSTAL-16MHZPTH-HC49US","Crystal:Crystal_HC18-U_Vertical","","XTAL-08181"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Field4"
+"1","2","C1, C2","22UF-0805-6.3V-20%","SparkFun-Capacitors:22UF-0805-6.3V-20%","Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm","","CAP-08402"
+"2","1","C3","10UF","Device:C","Capacitor_THT:CP_Radial_D8.0mm_P2.50mm","~",""
+"3","1","D1","LED","Device:LED","LED_THT:LED_D5.0mm","~",""
+"4","1","J1","USB_B_Micro","Connector:USB_B_Micro","Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal","~",""
+"5","2","J2, J3","Conn_01x14","Connector_Generic:Conn_01x14","Connector_Molex:Molex_Micro-Latch_53253-1470_1x14_P2.00mm_Vertical","~",""
+"6","2","R1, R2","100","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~",""
+"7","1","SW1","SW_Push","Switch:SW_Push","Button_Switch_THT:SW_PUSH_6mm","~",""
+"8","1","U1","L7805","Regulator_Linear:L7805","Package_TO_SOT_THT:TO-220F-3_Vertical","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf",""
+"9","1","U2","ATmega328-P","MCU_Microchip_ATmega:ATmega328-P","Package_DIP:DIP-28_W7.62mm_LongPads","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf",""
+"10","1","Y1","CRYSTAL-16MHZPTH-HC49US","SparkFun-Clocks:CRYSTAL-16MHZPTH-HC49US","Crystal:Crystal_HC18-U_Vertical","","XTAL-08181"
