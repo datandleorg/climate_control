@@ -1,673 +1,575 @@
-159254273555289
-Button_Switch_THT
-KSA_Tactile_SPST
-KSA http://www.ckswitches.com/media/1457/ksa_ksl.pdf
-SWITCH SMD KSA SW
-0
-5
-5
-Button_Switch_THT
-Nidec_Copal_SH-7010C
-4-bit rotary coded switch, through-hole, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
-rotary switch bcd
-0
-6
-5
-Button_Switch_THT
-Push_E-Switch_KS01Q01
-E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf
-Push Button
+136029692214422
+LED_THT
+LED_BL-FL7680RGB
+'Piranha' RGB LED, through hole, common anode, 7.62x7.62mm, BGRA pin order, https://cdn-shop.adafruit.com/datasheets/BL-FL7680RGB.pdf
+RGB LED Piranha Super-Flux BetLux
 0
 4
 4
-Button_Switch_THT
-SW_CW_GPTS203211B
-SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
-SPST button switch Off-On
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
 0
 2
 2
-Button_Switch_THT
-SW_CuK_JS202011AQN_DPDT_Angled
-CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
-switch DPDT
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
 0
-6
-6
-Button_Switch_THT
-SW_CuK_JS202011CQN_DPDT_Straight
-CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
-switch DPDT
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
 0
-6
-6
-Button_Switch_THT
-SW_CuK_OS102011MA1QN1_SPDT_Angled
-CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
-switch SPDT
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
 0
-5
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
+0
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
+0
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z1.6mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins
+0
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z4.9mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins
+0
+2
+2
+LED_THT
+LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z8.2mm
+LED, ,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins,  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm, 2 pins
+LED   diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 1.6mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 4.9mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins  diameter 1.8mm size 1.8x2.4mm^2 z-position of LED center 8.2mm 2 pins
+0
+2
+2
+LED_THT
+LED_D1.8mm_W3.3mm_H2.4mm
+LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins
+LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins
+0
+2
+2
+LED_THT
+LED_D2.0mm_W4.0mm_H2.8mm_FlatTop
+LED, Round, FlatTop,  Rectangular size 4.0x2.8mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-1034IDT(Ver.9A).pdf
+LED Round FlatTop  Rectangular size 4.0x2.8mm^2 diameter 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D2.0mm_W4.8mm_H2.5mm_FlatTop
+LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf
+LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm-3
+LED, diameter 3.0mm, 2 pins, diameter 3.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-3VSURKCGKC(Ver.8A).pdf
+LED diameter 3.0mm 2 pins diameter 3.0mm 3 pins
+0
 3
-Button_Switch_THT
-SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm
-1x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x4.1mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-2
-2
-Button_Switch_THT
-SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile
-1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-2
-2
-Button_Switch_THT
-SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm
-1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-2
-2
-Button_Switch_THT
-SW_DIP_SPSTx02_Piano_10.8x6.64mm_W7.62mm_P2.54mm
-2x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x6.64mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-4
-4
-Button_Switch_THT
-SW_DIP_SPSTx02_Piano_CTS_Series194-2MSTN_W7.62mm_P2.54mm
-2x-dip-switch SPST CTS_Series194-2MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-4
-4
-Button_Switch_THT
-SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile
-2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-4
-4
-Button_Switch_THT
-SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm
-2x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x7.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-4
-4
-Button_Switch_THT
-SW_DIP_SPSTx03_Piano_10.8x9.18mm_W7.62mm_P2.54mm
-3x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x9.18mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-6
-6
-Button_Switch_THT
-SW_DIP_SPSTx03_Piano_CTS_Series194-3MSTN_W7.62mm_P2.54mm
-3x-dip-switch SPST CTS_Series194-3MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-6
-6
-Button_Switch_THT
-SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile
-3x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-6
-6
-Button_Switch_THT
-SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm
-3x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x9.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-6
-6
-Button_Switch_THT
-SW_DIP_SPSTx04_Piano_10.8x11.72mm_W7.62mm_P2.54mm
-4x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x11.72mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-8
-8
-Button_Switch_THT
-SW_DIP_SPSTx04_Piano_CTS_Series194-4MSTN_W7.62mm_P2.54mm
-4x-dip-switch SPST CTS_Series194-4MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-8
-8
-Button_Switch_THT
-SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile
-4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-8
-8
-Button_Switch_THT
-SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm
-4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-8
-8
-Button_Switch_THT
-SW_DIP_SPSTx05_Piano_10.8x14.26mm_W7.62mm_P2.54mm
-5x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x14.26mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-10
-10
-Button_Switch_THT
-SW_DIP_SPSTx05_Piano_CTS_Series194-5MSTN_W7.62mm_P2.54mm
-5x-dip-switch SPST CTS_Series194-5MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-10
-10
-Button_Switch_THT
-SW_DIP_SPSTx05_Slide_6.7x14.26mm_W7.62mm_P2.54mm_LowProfile
-5x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-10
-10
-Button_Switch_THT
-SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm
-5x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x14.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-10
-10
-Button_Switch_THT
-SW_DIP_SPSTx06_Piano_10.8x16.8mm_W7.62mm_P2.54mm
-6x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x16.8mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-12
-12
-Button_Switch_THT
-SW_DIP_SPSTx06_Piano_CTS_Series194-6MSTN_W7.62mm_P2.54mm
-6x-dip-switch SPST CTS_Series194-6MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-12
-12
-Button_Switch_THT
-SW_DIP_SPSTx06_Slide_6.7x16.8mm_W7.62mm_P2.54mm_LowProfile
-6x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-12
-12
-Button_Switch_THT
-SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm
-6x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x17.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-12
-12
-Button_Switch_THT
-SW_DIP_SPSTx07_Piano_10.8x19.34mm_W7.62mm_P2.54mm
-7x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x19.34mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-14
-14
-Button_Switch_THT
-SW_DIP_SPSTx07_Piano_CTS_Series194-7MSTN_W7.62mm_P2.54mm
-7x-dip-switch SPST CTS_Series194-7MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-14
-14
-Button_Switch_THT
-SW_DIP_SPSTx07_Slide_6.7x19.34mm_W7.62mm_P2.54mm_LowProfile
-7x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-14
-14
-Button_Switch_THT
-SW_DIP_SPSTx07_Slide_9.78x19.96mm_W7.62mm_P2.54mm
-7x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x19.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-14
-14
-Button_Switch_THT
-SW_DIP_SPSTx08_Piano_10.8x21.88mm_W7.62mm_P2.54mm
-8x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x21.88mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-16
-16
-Button_Switch_THT
-SW_DIP_SPSTx08_Piano_CTS_Series194-8MSTN_W7.62mm_P2.54mm
-8x-dip-switch SPST CTS_Series194-8MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-16
-16
-Button_Switch_THT
-SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile
-8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-16
-16
-Button_Switch_THT
-SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm
-8x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-16
-16
-Button_Switch_THT
-SW_DIP_SPSTx09_Piano_10.8x24.42mm_W7.62mm_P2.54mm
-9x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x24.42mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-18
-18
-Button_Switch_THT
-SW_DIP_SPSTx09_Piano_CTS_Series194-9MSTN_W7.62mm_P2.54mm
-9x-dip-switch SPST CTS_Series194-9MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-18
-18
-Button_Switch_THT
-SW_DIP_SPSTx09_Slide_6.7x24.42mm_W7.62mm_P2.54mm_LowProfile
-9x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-18
-18
-Button_Switch_THT
-SW_DIP_SPSTx09_Slide_9.78x25.04mm_W7.62mm_P2.54mm
-9x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x25.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-18
-18
-Button_Switch_THT
-SW_DIP_SPSTx10_Piano_10.8x26.96mm_W7.62mm_P2.54mm
-10x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x26.96mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-20
-20
-Button_Switch_THT
-SW_DIP_SPSTx10_Piano_CTS_Series194-10MSTN_W7.62mm_P2.54mm
-10x-dip-switch SPST CTS_Series194-10MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-20
-20
-Button_Switch_THT
-SW_DIP_SPSTx10_Slide_6.7x26.96mm_W7.62mm_P2.54mm_LowProfile
-10x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-20
-20
-Button_Switch_THT
-SW_DIP_SPSTx10_Slide_9.78x27.58mm_W7.62mm_P2.54mm
-10x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x27.58mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-20
-20
-Button_Switch_THT
-SW_DIP_SPSTx11_Piano_10.8x29.5mm_W7.62mm_P2.54mm
-11x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x29.5mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-22
-22
-Button_Switch_THT
-SW_DIP_SPSTx11_Piano_CTS_Series194-11MSTN_W7.62mm_P2.54mm
-11x-dip-switch SPST CTS_Series194-11MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-22
-22
-Button_Switch_THT
-SW_DIP_SPSTx11_Slide_6.7x29.5mm_W7.62mm_P2.54mm_LowProfile
-11x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-22
-22
-Button_Switch_THT
-SW_DIP_SPSTx11_Slide_9.78x30.12mm_W7.62mm_P2.54mm
-11x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x30.12mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-22
-22
-Button_Switch_THT
-SW_DIP_SPSTx12_Piano_10.8x32.04mm_W7.62mm_P2.54mm
-12x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x32.04mm
-DIP Switch SPST Piano 7.62mm 300mil
-0
-24
-24
-Button_Switch_THT
-SW_DIP_SPSTx12_Piano_CTS_Series194-12MSTN_W7.62mm_P2.54mm
-12x-dip-switch SPST CTS_Series194-12MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)
-DIP Switch SPST Piano 7.62mm 300mil
-0
-24
-24
-Button_Switch_THT
-SW_DIP_SPSTx12_Slide_6.7x32.04mm_W7.62mm_P2.54mm_LowProfile
-12x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
-DIP Switch SPST Slide 7.62mm 300mil LowProfile
-0
-24
-24
-Button_Switch_THT
-SW_DIP_SPSTx12_Slide_9.78x32.66mm_W7.62mm_P2.54mm
-12x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x32.66mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
-DIP Switch SPST Slide 7.62mm 300mil
-0
-24
-24
-Button_Switch_THT
-SW_E-Switch_EG1224_SPDT_Angled
-E-Switch slide switch, EG series, SPDT, right angle, http://spec_sheets.e-switch.com/specs/P040042.pdf
-switch SPDT
-0
-7
 3
-Button_Switch_THT
-SW_E-Switch_EG1271_DPDT
-E-Switch sub miniature slide switch, EG series, DPDT, http://spec_sheets.e-switch.com/specs/P040047.pdf
-switch DPDT
+LED_THT
+LED_D3.0mm_Clear
+IR-LED, diameter 3.0mm, 2 pins, color: clear
+IR infrared LED diameter 3.0mm 2 pins clear
 0
-6
-6
-Button_Switch_THT
-SW_E-Switch_EG2219_DPDT_Angled
-E-Switch slide switch, EG series, DPDT, right angle, http://spec_sheets.e-switch.com/specs/P040170.pdf
-switch DPDT
+2
+2
+LED_THT
+LED_D3.0mm_FlatTop
+LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf
+LED Round FlatTop diameter 3.0mm 2 pins
 0
-10
-6
-Button_Switch_THT
-SW_Lever_1P2T_NKK_GW12LxH
-Switch, single pole double throw, right angle, http://www.nkkswitches.com/pdf/GW.pdf
-switch single-pole double-throw spdt ON-ON horizontal
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
 0
-5
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_Clear
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRGrey
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O1.27mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O3.81mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_Horizontal_O6.35mm_Z10.0mm
+LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 6.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins, diameter 3.0mm z-position of LED center 10.0mm, 2 pins
+LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 6.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins diameter 3.0mm z-position of LED center 10.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D3.0mm_IRBlack
+IR-ED, diameter 3.0mm, 2 pins, color: black
+IR infrared LED diameter 3.0mm 2 pins black
+0
+2
+2
+LED_THT
+LED_D3.0mm_IRGrey
+IR-LED, diameter 3.0mm, 2 pins, color: grey
+IR infrared LED diameter 3.0mm 2 pins grey
+0
+2
+2
+LED_THT
+LED_D4.0mm
+LED, diameter 4.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-43GD(Ver.12B).pdf
+LED diameter 4.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm-3
+LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins
+0
 3
-Button_Switch_THT
-SW_MEC_5GTH9
-MEC 5G single pole normally-open tactile switch https://cdn.sos.sk/productdata/80/f6/aabf7be6/5gth9358222.pdf
-switch normally-open pushbutton push-button
-0
-4
-2
-Button_Switch_THT
-SW_NKK_BB15AH
-https://www.nkkswitches.com/pdf/Bpushbuttons-1.pdf
-Pushbutton Right-angle
-0
-5
 3
-Button_Switch_THT
-SW_NKK_G1xJP
-Switch NKK G1xJP http://www.nkkswitches.com/pdf/gwillum.pdf
-SWITCH TOGGLE ILLUM SPDT NKK
+LED_THT
+LED_D5.0mm-3_Horizontal_O3.81mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 3 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 3 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
 0
-6
-6
-Button_Switch_THT
-SW_NKK_GW12LJP
-Switch, single pole double throw, illuminated paddle, http://www.nkkswitches.com/pdf/gwillum.pdf
-switch single-pole double-throw spdt ON-ON illuminated LED
-0
-6
-6
-Button_Switch_THT
-SW_PUSH-12mm
-SW PUSH 12mm https://www.e-switch.com/system/asset/product_line/data_sheet/143/TL1100.pdf
-tact sw push 12mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH-12mm_Wuerth-430476085716
-SW PUSH 12mm http://katalog.we-online.de/em/datasheet/430476085716.pdf
-tact sw push 12mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm
-https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H4.3mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H5mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H7.3mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=7.3mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H8.5mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=8.5mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H8mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=8mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H9.5mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_6mm_H13mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=13mm
-tact sw push 6mm
-0
-4
-2
-Button_Switch_THT
-SW_PUSH_E-Switch_FS5700DP_DPDT
-FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf
-switch DPDT footswitch
-0
-6
-6
-Button_Switch_THT
-SW_PUSH_LCD_E3_SAxxxx
-Switch with LCD screen E3 SAxxxx
-switch normally-open pushbutton push-button LCD
-0
-6
-6
-Button_Switch_THT
-SW_PUSH_LCD_E3_SAxxxx_SocketPins
-Switch with LCD screen E3 SAxxxx
-switch normally-open pushbutton push-button LCD
-0
-6
-6
-Button_Switch_THT
-SW_Push_1P1T_NO_LED_E-Switch_TL1250
-illuminated right angle tact switch https://www.e-switch.com/system/asset/product_line/data_sheet/148/TL1250.pdf
-led push switch right angle
-0
-6
-4
-Button_Switch_THT
-SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6
- right angle SPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
-IP67 ultra-miniture horizontal
-0
-5
 3
-Button_Switch_THT
-SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2
-momentary / push-push button, h=17.5mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA1 DPST
-0
-4
-4
-Button_Switch_THT
-SW_Push_2P1T_Toggle_CK_PVA1xxH2xxxxxxV2
-momentary / push-push button, h=23mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA1 DPST
-0
-4
-4
-Button_Switch_THT
-SW_Push_2P1T_Toggle_CK_PVA1xxH3xxxxxxV2
-momentary / push-push button, h=20.5mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA1 DPST
-0
-4
-4
-Button_Switch_THT
-SW_Push_2P1T_Toggle_CK_PVA1xxH4xxxxxxV2
-momentary / push-push button, h=15mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA1 DPST
-0
-4
-4
-Button_Switch_THT
-SW_Push_2P2T_Toggle_CK_PVA2OAH5xxxxxxV2
-momentary / push-push button, h=13mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA2 DPDT
-0
-6
-6
-Button_Switch_THT
-SW_Push_2P2T_Toggle_CK_PVA2xxH1xxxxxxV2
-momentary / push-push button, h=17.5mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA2 DPDT
-0
-6
-6
-Button_Switch_THT
-SW_Push_2P2T_Toggle_CK_PVA2xxH2xxxxxxV2
-momentary / push-push button, h=23mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA2 DPDT
-0
-6
-6
-Button_Switch_THT
-SW_Push_2P2T_Toggle_CK_PVA2xxH3xxxxxxV2
-momentary / push-push button, h=20.5mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA2 DPDT
-0
-6
-6
-Button_Switch_THT
-SW_Push_2P2T_Toggle_CK_PVA2xxH4xxxxxxV2
-momentary / push-push button, h=15mm C&K PVA2 https://www.ckswitches.com/media/1343/pva.pdf
-tact sw push PVA2 DPDT
-0
-6
-6
-Button_Switch_THT
-SW_Push_2P2T_Vertical_E-Switch_800UDP8P1A1M6
- right angle DPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf
-IP67 ultra-miniture horizontal
-0
-8
-6
-Button_Switch_THT
-SW_Slide_1P2T_CK_OS102011MS2Q
-CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
-switch SPDT
-0
-5
 3
-Button_Switch_THT
-SW_TH_Tactile_Omron_B3F-10xx
-SW_TH_Tactile_Omron_B3F-10xx_https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-Omron B3F-10xx
+LED_THT
+LED_D5.0mm-4_RGB
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
+LED_THT
+LED_D5.0mm-4_RGB_Staggered_Pins
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+rgb led
+0
+4
+4
+LED_THT
+LED_D5.0mm-4_RGB_Wide_Pins
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
+LED_THT
+LED_D5.0mm_Clear
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_FlatTop
+LED, Round, FlatTop, diameter 5.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-483GDT(Ver.15B).pdf
+LED Round FlatTop diameter 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRBlack
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O1.27mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O3.81mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_Horizontal_O6.35mm_Z15.0mm
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins, diameter 5.0mm z-position of LED center 15.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins diameter 5.0mm z-position of LED center 15.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_IRBlack
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D5.0mm_IRGrey
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D8.0mm
+LED, diameter 8.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED8MMGE_LED8MMGN_LED8MMRT%23KIN.pdf
+LED diameter 8.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D8.0mm-3
+LED, diameter 8.0mm, 2 pins, diameter 8.0mm, 3 pins
+LED diameter 8.0mm 2 pins diameter 8.0mm 3 pins
+0
+3
+3
+LED_THT
+LED_D10.0mm
+LED, diameter 10.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED10-4500RT%23KIN.pdf
+LED diameter 10.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_D10.0mm-3
+LED, diameter 10.0mm, 2 pins, diameter 10.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-819EGW(Ver.14A).pdf
+LED diameter 10.0mm 2 pins diameter 10.0mm 3 pins
+0
+3
+3
+LED_THT
+LED_D20.0mm
+LED, diameter 20.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/DLC2-6GD%28V6%29.pdf
+LED diameter 20.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Oval_W5.2mm_H3.8mm
+LED_Oval, Oval,  Oval size 5.2x3.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-5603QBC-D(Ver.12B).pdf
+LED_Oval Oval  Oval size 5.2x3.8mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W3.0mm_H2.0mm
+LED_Rectangular, Rectangular,  Rectangular size 3.0x2.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.0x2.0mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W3.9mm_H1.8mm
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-2774GD(Ver.7B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.8mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W3.9mm_H1.8mm_FlatTop
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-2774GD(Ver.7B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.8mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W3.9mm_H1.9mm
+LED_Rectangular, Rectangular,  Rectangular size 3.9x1.9mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-144GDT(Ver.14B).pdf
+LED_Rectangular Rectangular  Rectangular size 3.9x1.9mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm-3Pins
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 3 pins
+0
+3
+3
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O1.27mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O3.81mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z1.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z3.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H2.0mm_Horizontal_O6.35mm_Z5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins,  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm, 2 pins
+LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 1.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 3.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins  Rectangular size 5.0x2.0mm^2 z-position of LED center 5.0mm 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W5.0mm_H5.0mm
+LED_Rectangular, Rectangular,  Rectangular size 5.0x5.0mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf
+LED_Rectangular Rectangular  Rectangular size 5.0x5.0mm^2 2 pins
+0
+2
+2
+LED_THT
+LED_Rectangular_W7.62mm_H4.55mm_P5.08mm_R3
+Datasheet can be found at https://www.gme.cz/data/attachments/dsh.511-795.1.pdf
+LED automotive super flux 7.62mm
 0
 4
 2
-Button_Switch_THT
-SW_Tactile_SKHH_Angled
-tactile switch 6mm ALPS SKHH right angle http://www.alps.com/prod/info/E/HTML/Tact/SnapIn/SKHH/SKHHLUA010.html
-tactile switch 6mm ALPS SKHH right angle
+LED_THT
+LED_SideEmitter_Rectangular_W4.5mm_H1.6mm
+LED_SideEmitter_Rectangular, Rectangular, SideEmitter,  Rectangular size 4.5x1.6mm^2, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED15MMGE_LED15MMGN%23KIN.pdf
+LED_SideEmitter_Rectangular Rectangular SideEmitter  Rectangular size 4.5x1.6mm^2 2 pins
 0
-4
 2
-Button_Switch_THT
-SW_Tactile_SPST_Angled_PTS645Vx31-2LFS
-tactile switch SPST right angle, PTS645VL31-2 LFS
-tactile switch SPST angled PTS645VL31-2 LFS C&K Button
-0
-4
 2
-Button_Switch_THT
-SW_Tactile_SPST_Angled_PTS645Vx39-2LFS
-tactile switch SPST right angle, PTS645VL39-2 LFS
-tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+LED_THT
+LED_VCCLite_5381H1_6.35x6.35mm
+Red 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
+Red 5381 Series LED
 0
-4
 2
-Button_Switch_THT
-SW_Tactile_SPST_Angled_PTS645Vx58-2LFS
-tactile switch SPST right angle, PTS645VL58-2 LFS
-tactile switch SPST angled PTS645VL58-2 LFS C&K Button
-0
-4
 2
-Button_Switch_THT
-SW_Tactile_SPST_Angled_PTS645Vx83-2LFS
-tactile switch SPST right angle, PTS645VL83-2 LFS
-tactile switch SPST angled PTS645VL83-2 LFS C&K Button
+LED_THT
+LED_VCCLite_5381H3_6.35x6.35mm
+Amber 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
+Amber 5381 Series LED
 0
-4
 2
-Button_Switch_THT
-SW_Tactile_Straight_KSA0Axx1LFTR
-SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf
-SW PUSH SMALL Tactile C&K
-0
-4
 2
-Button_Switch_THT
-SW_Tactile_Straight_KSL0Axx1LFTR
-SW PUSH SMALL http://www.ckswitches.com/media/1457/ksa_ksl.pdf
-SW PUSH SMALL Tactile C&K
+LED_THT
+LED_VCCLite_5381H5_6.35x6.35mm
+Green 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
+Green 5381 Series LED
 0
-4
+2
+2
+LED_THT
+LED_VCCLite_5381H7_6.35x6.35mm
+Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
+Yellow 5381 Series LED
+0
+2
 2
