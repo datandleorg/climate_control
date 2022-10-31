@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7-1)-1"
     },
-    "CreationDate": "2022-10-19T21:48:06+05:30"
+    "CreationDate": "2022-10-31T10:44:15+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -32,133 +32,48 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Ac Temp Control V2-F_Cu.gbr",
+      "Path": "Ac Temp Control V2-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-B_Cu.gbr",
+      "Path": "Ac Temp Control V2-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-F_Adhesive.gbr",
-      "FileFunction": "Glue,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-B_Adhesive.gbr",
-      "FileFunction": "Glue,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-F_Paste.gbr",
+      "Path": "Ac Temp Control V2-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-B_Paste.gbr",
+      "Path": "Ac Temp Control V2-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-F_Silkscreen.gbr",
+      "Path": "Ac Temp Control V2-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-B_Silkscreen.gbr",
+      "Path": "Ac Temp Control V2-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Ac Temp Control V2-F_Mask.gbr",
+      "Path": "Ac Temp Control V2-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Ac Temp Control V2-B_Mask.gbr",
+      "Path": "Ac Temp Control V2-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Ac Temp Control V2-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_Comments.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_Eco1.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_Eco2.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-Edge_Cuts.gbr",
+      "Path": "Ac Temp Control V2-Edge_Cuts.gm1",
       "FileFunction": "Profile",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-F_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-B_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_1.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_2.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_3.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_4.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_5.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_6.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_7.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_8.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Ac Temp Control V2-User_9.gbr",
-      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
